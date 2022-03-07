@@ -30,7 +30,7 @@ function renderMention(elem: SlateElement, children: VNode[] | null, editor: IDo
         padding: '0 3px',
       },
     },
-    `@${value}` // 如 `@张三`
+    `${value}` // 如 `@张三`
   )
 
   return vnode
